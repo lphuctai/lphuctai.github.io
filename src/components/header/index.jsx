@@ -17,7 +17,7 @@ export default function Header () {
 
           <div className="hidden md:flex flex-col md:flex-row md:ml-auto mt-3 md:mt-0 tracking-tight" id="navbar-collapse">
             {data.routing.map(({ name, uri }, i) => (
-              <Link key={i} href={uri} className="p-2 lg:px-4 font-medium md:mx-2 hover:text-transparent text-2xl transition duration-150 ease-in hover:ease-out bg-clip-text bg-gradient-to-r from-purple-600 to-blue-600">
+              <Link key={i} href={uri} className="p-2 lg:px-4 font-medium md:mx-2 hover:text-transparent text-2xl transition duration-150 ease-in hover:ease-out bg-clip-text bg-gradient-to-r from-purple-600 to-blue-500">
                 {name}
               </Link>
             ))}
